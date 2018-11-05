@@ -9,10 +9,15 @@ Window {
     Rectangle{
         width: 100
         height: 100
-    }
+
     Text{
         text: qsTr("Hello git")
         width: 100
         height: 100
     }
+    Text {
+        id: test2
+        text: qsTr("text")
+    }
+}
 }
